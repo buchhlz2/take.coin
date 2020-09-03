@@ -1,0 +1,27 @@
+{
+  "name": "Taker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx oz compile --solc-version=^0.6.0",
+    "local-testnet": "npx ganache-cli --deterministic",
+    "deploy": "npx oz deploy",
+    "accounts": "npx oz accounts",
+    "balance": "npx oz balance",
+    "send-tx": "npx oz send-tx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contract-loader": "^0.6.1",
+    "@openzeppelin/contracts": "^3.1.0",
+    "web3": "^1.2.11"
+  },
+  "devDependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "ganache-cli": "^6.10.1"
+  }
+}
