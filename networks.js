@@ -29,5 +29,14 @@ module.exports = {
       networkId: 42,
       gasPrice: 10e9,
     },
+    mainnet: {
+      provider:  () =>
+        new HDWalletProvider(
+          process.env.METAMASK_MAINNET_PRIVATE_KEY,
+          `https://mainnet.infura.io/v3/${process.env.INFURA_PROJECT_ID}`
+        ),
+      networkId: 1,
+      gasPrice: 10e9,
+    }
   },
 };
