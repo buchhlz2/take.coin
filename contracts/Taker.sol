@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
-import "@openzeppelin/contracts/math/SafeMath.sol";
+import "@openzeppelin/contracts-ethereum-package/contracts/math/SafeMath.sol";
 import "./ERC20Interface.sol";
 
 contract Taker is ERC20Interface {
