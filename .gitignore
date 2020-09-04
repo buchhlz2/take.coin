@@ -4,3 +4,4 @@ bin/contracts
 node_modules/
 .env
 .openzeppelin/.session
+.openzeppelin/
