@@ -1,2 +1,2 @@
-# Taker.fi
-Ethereum ERC20 token using the OpenZeppelin specification
+# Take
+Ethereum ERC20 token $TAKE using the OpenZeppelin specification
